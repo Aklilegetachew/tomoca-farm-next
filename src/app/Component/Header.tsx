@@ -82,7 +82,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <Image
-              src="/tomocaLogo.png"
+              src="./tomocaLogo.png"
               alt="Logo"
               width={100}
               height={40}
