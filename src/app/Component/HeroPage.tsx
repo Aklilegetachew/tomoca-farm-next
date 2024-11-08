@@ -12,7 +12,7 @@ export default function Component() {
           playsInline
           className="h-full w-full object-cover border-2"
         >
-          <source src="/tomocaFarmHero.mp4" type="video/mp4" />
+          <source src="/Tomocafarmhero.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/60" />
       </div>
