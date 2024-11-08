@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
+
+:root {
+  --foreground-rgb: 96, 96, 96;
+  --foreground-secondary-rgb: 51, 51, 51;
+  --background-main-rgb: 245, 245, 245;
+  --background-secondary-rgb: 222, 223, 223;
+  --background-color-rgb: 222, 223, 223;
+  --background-color-paper: #ffffff;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 245, 245, 245;
+  }
+} */
+
+body {
+  background-color: var(--background-color-paper);
+  color: rgb(var(--foreground-secondary-rgb));
+  scroll-behavior: smooth;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.secondary-color {
+  background-color: rgb(var(--foreground-rgb));
+}
+.paragcolor {
+  color: #606060;
+}
+
+.menulist {
+  color: #727272;
+}
+
+.menuhover {
+  color: #eadfdf;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.paper {
+  background-color: #ffffff;
+}
