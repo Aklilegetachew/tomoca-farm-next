@@ -81,8 +81,8 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
-            <Image
-              src="./tomocaLogo.png"
+            <img
+              src="/tomocaLogo.png"
               alt="Logo"
               width={100}
               height={40}

@@ -14,7 +14,7 @@ export default function AppDownloadSection() {
             transition={{ duration: 1, delay: 0.3 }}
             whileHover={{ scale: 1.05, rotate: -10 }}
           >
-            <Image
+            <img
               src="/app1rd.png"
               alt="Mobile app screen"
               width={280}
@@ -28,7 +28,7 @@ export default function AppDownloadSection() {
             transition={{ duration: 1, delay: 0.6 }}
             whileHover={{ scale: 1.05, rotate: 10 }}
           >
-            <Image
+            <img
               src="/app2rd.png"
               alt="Mobile app screen"
               width={280}
@@ -49,7 +49,7 @@ export default function AppDownloadSection() {
           Tomoca Coffee: Download <br />
           Our App Today!
         </h2>
-        <p className="text-gray-600 mb-6 text-slate-400">
+        <p className=" mb-6 text-slate-400">
           Experience the world of Tomoca Coffee at your fingertips with our
           user-friendly mobile app. From browsing our latest coffee selections
           to receiving exclusive offers and updates, our app brings the Tomoca

@@ -33,7 +33,7 @@ export default function OneByTwo({
         transition={{ duration: 0.8, delay: 0.2 }}
         className="absolute top-10 left-10"
       >
-        <Image
+        <img
           src="/leaf-bg-coffee.svg"
           alt=""
           width={200}
@@ -93,7 +93,7 @@ export default function OneByTwo({
           transition={{ duration: 0.8, delay: 0.4 }}
           className="relative"
         >
-          <Image
+          <img
             src={images}
             alt="Vintage coffee illustration"
             width={600}
@@ -110,7 +110,7 @@ export default function OneByTwo({
         transition={{ duration: 0.8, delay: 0.6 }}
         className="absolute bottom-10 right-10"
       >
-        <Image
+        <img
           src="/leaf-bg-coffee.svg"
           alt=""
           width={350}

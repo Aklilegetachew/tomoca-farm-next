@@ -27,10 +27,10 @@ export default function CardImage({ posts }: BlogSectionProps) {
           {posts.map((post, index) => (
             <div key={index} className="relative group">
               <div className="relative h-[300px] overflow-hidden">
-                <Image
+                <img
                   src={post.imageSrc}
                   alt={post.title}
-                  fill
+                  
                   className="object-cover transition-transform duration-300 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-black/50"></div>

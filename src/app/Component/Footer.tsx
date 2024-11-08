@@ -16,7 +16,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-5 lg:gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 md:">
           <div className="space-y-6">
-            <Image
+            <img
               src="/tomocaLogo.png"
               alt="Tomoca Coffee"
               width={120}

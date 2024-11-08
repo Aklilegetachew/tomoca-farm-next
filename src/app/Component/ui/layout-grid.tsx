@@ -194,12 +194,12 @@ const SelectedCard = ({ selected }: { selected: Card | null }) => {
       >
         {/* {selected?.content} */}
 
-        <Image
+        <img
           src={selected?.thumbnail || ""}
           alt="Selected Image"
-          layout="fill"
-          objectFit="contain"
-          className="grayscale-0"
+          // layout="fill"
+          // objectFit="contain"
+          className="grayscale-0 object-contain "
         />
         {selected?.content && (
           <div className="absolute bottom-0 left-0 p-4 bg-black bg-opacity-50 text-white w-full">

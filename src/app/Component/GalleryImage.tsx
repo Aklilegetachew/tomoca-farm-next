@@ -42,7 +42,7 @@ export default function ModernGallery({ images }: GalleryProps) {
     <>
       <div>
         <h1 className="text-3xl text-center font-semibold text-white sm:text-4xl lg:text-6xl">
-        From Our Gallery
+          From Our Gallery
         </h1>
       </div>
       <motion.div
@@ -60,22 +60,17 @@ export default function ModernGallery({ images }: GalleryProps) {
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >
-              <Image
+              <img
                 src={image.src}
                 alt={image.alt}
-                layout="fill"
-                objectFit="cover"
-                className="transition-transform duration-300 ease-in-out"
+                // layout="fill"
+                // objectFit="cover"
+                className="transition-transform duration-300 ease-in-out h-full w-full object-cover"
                 style={{
                   transform: hoveredIndex === index ? "scale(1.1)" : "scale(1)",
                 }}
               />
-              <div
-                className="absolute inset-0 bg-black bg-opacity-40 transition-opacity duration-300 ease-in-out"
-                style={{
-                  opacity: hoveredIndex === index ? 1 : 0,
-                }}
-              />
+              <div className="absolute inset-0 bg-black bg-opacity-40 transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100" />
               <div
                 className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 ease-in-out"
                 style={{
