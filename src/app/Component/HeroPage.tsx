@@ -10,7 +10,7 @@ export default function Component() {
           loop
           muted
           playsInline
-          className="h-full w-full object-cover border-2"
+          className="h-full w-full object-cover "
         >
           <source src="/Tomocafarmhero.mp4" type="video/mp4" />
         </video>
