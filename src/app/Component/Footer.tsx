@@ -24,8 +24,8 @@ export default function Footer() {
               className="h-10 w-auto"
             />
             <p className="text-sm text-gray-300">
-              Est. 1953, TOMOCA Ethiopia's coffee pioneer, adds value to its
-              golden treasure globally. Our branded coffee shops cultivate a
+              Est. 1953, TOMOCA Ethiopia&apos;s coffee pioneer, adds value to
+              its golden treasure globally. Our branded coffee shops cultivate a
               distinctive culture, delighting customers daily with unique drinks
               and products.
             </p>

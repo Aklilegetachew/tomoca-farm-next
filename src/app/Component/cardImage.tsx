@@ -18,7 +18,7 @@ export default function CardImage({ posts }: BlogSectionProps) {
         <div className="text-center mb-12">
           <p className="text-[#ff5733] text-sm font-medium mb-4">Our Farms </p>
           <h2 className="text-4xl font-bold">
-            From Coffee Fields to Dairy Pastures, Discover Ethiopia's Finest
+            From Coffee Fields to Dairy Pastures, Discover Ethiopia&apos;s Finest
             Farms
           </h2>
         </div>
