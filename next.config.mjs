@@ -9,8 +9,9 @@ const nextConfig = {
 
     return config;
   },
-  
+
   output: "export",
+  assetPrefix: "./",
   trailingSlash: true,
 };
 
