@@ -28,7 +28,7 @@ jobs:
         run: npm run build 
 
       # Step 4: Deploy to DirectAdmin server via FTP
-      - uses: SamKirkland/FTP-Deploy-Action@4.3.1
+      - uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           server: ftp.tomocacoffeefarm.et
           username: ${{ secrets.FTP_USERNAME }}
