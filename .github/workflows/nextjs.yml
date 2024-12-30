@@ -28,11 +28,14 @@ jobs:
         run: npm run build 
 
       # Step 4: Deploy to DirectAdmin server via FTP
-      - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      - uses: SamKirkland/FTP-Deploy-Action@4.3.1
         with:
-          server: ftp.tomocacoffeefarm.et 
+          server: ftp.tomocacoffeefarm.et
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: out/
-          server-dir: /public_html/     
+          server-dir: /public_html/
+          timeout: 120000          # 2-minute timeout
+          retries: 5               # Retry 5 times on failure
+          debug: true              # Enable debug logs
+          active-mode: false       
