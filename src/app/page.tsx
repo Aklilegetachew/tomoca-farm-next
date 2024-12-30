@@ -12,14 +12,14 @@ import OneByTwo from "./Component/OneByTwo";
 import ModernGallery from "./Component/GalleryImage";
 import AppDownloadSection from "./Component/Promotion";
 
-// Ensure GSAP plugins are registered only on the client side
+
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
 }
 
 const roboto = Roboto({
   subsets: ["latin"],
-  weight: ["400", "700"], // You can specify the weights you need
+  weight: ["400", "700"], 
 });
 const myRoasts = [
   {
